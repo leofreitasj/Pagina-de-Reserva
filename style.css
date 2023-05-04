@@ -28,6 +28,11 @@ body {
 .cabecalho-menu {
   display: flex;
   gap: 32px;
+  border-radius: 2%;
+  
+}
+.cabecalho-menu:houver{
+  background-color: rgba(70, 0, 116, 0.25);
 }
 
 .cabecalho-menu-item {
