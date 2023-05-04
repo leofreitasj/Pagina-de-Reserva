@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Garanta aqui, as melhores ofertas e reservas para suas ferias">
     <link rel="stylesheet"  href="style.css">
+    <script src="JavaScript1.js"></script>
+    
     <title> RESERVE AKI</title>
+
 </head>
 <body>
     <header class="cabecalho">
@@ -31,7 +34,25 @@
                     <h2 class="conteudo-principal-escrito-subtitulo">Suas FERIAS GARANTIDAS!</h2>
                     <button class="conteudo-principal-escrito-botao">Desfrute</button>
                   </div>
-                  <img class="conteudo-principal-imagem"src="icoViagem.png" alt="Imagem Viagem">
+               <!--<img class="conteudo-principal-imagem"src="icoViagem.png" alt="Imagem Viagem">-->
+
+               <form name="meu_form">
+
+                <h1>Entre em contato</h1>
+              
+                <input type="text" id="nomeid" placeholder="nome" required="required" name="nome" />
+                <label for="nome">Nome</label>
+              
+                <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+                <label for="fone">Fone</label>
+              
+                <input type="email" id="emailid" placeholder="@mail.com" name="email" />
+                <label for="email">Email</label>
+              
+                <textarea placeholder="Dúvidas?"></textarea>
+              
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+              </form>
         
 
         </section>
