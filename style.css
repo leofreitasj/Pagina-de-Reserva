@@ -13,6 +13,8 @@ body {
  
 }
 
+
+
 .cabecalho {
   display: flex;
   flex-direction: row;
@@ -137,19 +139,23 @@ body {
 
   form {
     font-family: Verdana,Tahoma,sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     background-color: #c9d7dd71;
     max-width: 500px;
-    padding: 6px;
-    margin-top: 5%;
-    border-radius: 20px ;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 6px ;
+    align-items: center;
+   border-style: outset;
 }
 
 h1 {
-    margin-bottom: 20px;
-    margin-left: 20px;
     color: #03034b;
+    vertical-align: auto;
+    margin-left: auto;
+    align-items: center;
    
+
 }
 
 input, textarea {
@@ -177,8 +183,8 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     width: 100px;
     font-weight: bold;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
     border: 1px solid;
     color: black;
 }
@@ -187,7 +193,7 @@ textarea {
     width: 400px;
     height: 120px;
     line-height: 20px;
-    max-width: 400px;
+    max-width: 310.9px;
 }
 
 form label {
@@ -195,3 +201,20 @@ form label {
     color: #03034b;
     font-weight: bold;
 }
+
+label, textarea .Dados {
+  display: inline-block;
+  width: 90px;
+}
+
+h1 .conteudo-principal-escrito {
+ display: inline-block;
+ width: 60px;
+ margin-top: 10%;
+}
+
+
+h2 .conteudo-principal-escrito {
+  display: inline-block;
+  width: 90px;
+ }
