@@ -158,7 +158,7 @@ h1 {
 
 }
 
-input, textarea {
+select, input, textarea {
     width: 200px;
     padding: 10px;
     color: black;
@@ -169,7 +169,7 @@ input, textarea {
     border: 1px solid;
 }
 
-input:hover, textarea:hover, input:focus, textarea:focus {
+input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
     border-color: #000066;
     box-shadow: 2px 0px 7px #7dc6dc;
     background-color: #66FFFF;
@@ -201,7 +201,11 @@ form label {
     color: #03034b;
     font-weight: bold;
 }
-
+ form h1 {
+  margin-left: 20px;
+  padding: 0px 0px;
+  margin-bottom: 3%;
+ }
 label, textarea .Dados {
   display: inline-block;
   width: 90px;
